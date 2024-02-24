@@ -22,7 +22,7 @@ whatever reason.
 Installation:
 -------------
 Manual installation can be done as follows:
-- Browse to: https://github.com/Helly1206/smarthome
+- Browse to: https://github.com/Helly1206/dcupdate
 - Click the 'Clone or Download' button
 - Click 'Download Zip'
 - Unzip the zip file to a temporary location
