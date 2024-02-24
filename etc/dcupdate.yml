@@ -1,0 +1,7 @@
+#dcupdate settings file
+#  logging: info, debug, error
+#  volumes: linked volumes as list (e.g. for portainer /opt/portainer:/data)
+dcupdate:
+  logging: info
+  volumes:
+    - /opt/portainer:/data

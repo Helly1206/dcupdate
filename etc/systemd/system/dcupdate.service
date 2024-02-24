@@ -1,0 +1,13 @@
+# dcupdate - Service for dcupdate (docker compose update)
+
+[Unit]
+Description=dcupdate
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/opt/dcupdate/dcupdate.py
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
